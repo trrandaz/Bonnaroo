@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+html {
+    background-color: #090909;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	max-width: 1217px;
+    margin: auto;
+}
+
+body {
+	background-color: black;
+}
+/* Top Begins */
+a {
+    text-decoration: none;
+    color: #4BB742;
+}
+
+.img-thumbnail, .card, .col-xl-12, .col-md-12 {
+    background-color: black;
+}
+
+/* Top Ends */
+/* Nav Begins*/
+nav {
+    text-align: right;
+    font-style: normal;
+    text-decoration: none;
+}
+
+nav p {
+	text-align: center;
+	font-size: 20px;
+}
+nav li {
+  display:inline-block;
+  font-size: 22px;
+  padding-left: 18px;
+}
+
+.navbar-brand {
+	margin-right: 40px;
+}
+a:hover {
+	color: white;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background: #49B742;
+	opacity: 0.7;
+	bottom: 40px;
+	right: 50px;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 18px;
+}
+
+.gotopbtn:hover {
+	background: #55C74D;
+	opacity: 0.9;
+	text-decoration: none;
+}
+/* Nav Ends */
+/* Tickets Begins */
+
+#The-Tickets {
+	text-align: center;
+	padding-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 40px;
+}
+
+#The-Tickets h2 {
+    color: #FF4DC6;
+	font-size: 50px;
+}
+
+#The-Tickets p {
+	font-size: 20px;
+	margin: 30px;
+	padding-bottom: 30px;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#Yellow {
+	color: #FDFF6B;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+#Red {
+	color: #FF6666;
+	font-size: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.small {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.subtext {
+	background-color: #79D164;
+	color: white;
+	padding: 15px;
+	margin-bottom: 50px;
+	border-radius: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h4 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+
+h3, h4 {
+	text-align: center;
+}
+
+.buynow {
+	text-align: center;
+	font-size: 25px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 40pc;
+}
+
+.buynow a:hover {
+	color: #79D164;
+	text-decoration: none;
+}
+
+/* Tickets ends */
+/* Footer begins */
+
+#Soical {
+    background-color: #49B742;
+    text-align: center;
+	margin-top: 60px;
+}
+
+#Soical h3 {
+	color: black;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+#Soical div li a {
+    font-size: 18px;
+    color: black;
+    font-weight: lighter;
+}
+
+#Soical div li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#Soical div li  {
+    display: inline-table;
+	padding: 10px;
+	text-align: center;
+}
+/* Footer ends */
+/* Screen size Starts */
+@media only screen and (max-width: 1120px) {
+	.navbar-toggler{
+		background-color: #49B742;
+		width: 900px;
+	}
+	.navbar-brand {
+		width: 2000px;
+		margin-right: 0px;
+	}
+	nav {
+		text-align: center;
+	}
+	nav form {
+		visibility: hidden;
+	}
+	
+	nav li {
+		padding-left: 0px;
+	}
+
+	.subtext h3 {
+		width: 300px;
+		display: inline-block;
+	}
+	
+}
+
+@media only screen and (max-width: 990px) {
+	.navbar-toggler{
+		background-color: #49B742;
+		width: 900px;
+	}
+	
+	.navbar-brand {
+		width: 2000px;
+		text-align: center;
+		margin-right: 0px;
+	}
+	
+	nav {
+		text-align: center;
+	}
+	
+	nav form {
+		visibility: hidden;
+	}
+	
+	nav li {
+		padding-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	#Yellow {
+		margin-left: -20px;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	.navbar-brand {
+	width: 600px;
+}
+	.subtext {
+		object-position: center;
+		margin-left: 30px;
+		margin-right: 30px;
+		}	
+	
+	nav img {
+			width: 320px
+		}
+	
+	button img {
+			width: 30px;
+		}
+	}
+	@media only screen and (max-width: 370px) {
+	
+		button img {
+			width: 30px;
+		}
+}
+/* Screen size ends */

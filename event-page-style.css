@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+html {
+    background-color: #090909;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	max-width: 1217px;
+    margin: auto;
+}
+
+body {
+	background-color: black;
+}
+/* Top Img Begins */
+
+a {
+    text-decoration: none;
+    color: #4BB742;
+}
+
+.img-thumbnail, .card, .col-xl-12, .col-md-12 {
+    background-color: black;
+}
+
+/* Top Img Ends */
+/* Nav Bar and button Begins*/
+
+nav p {
+	text-align: center;
+	font-size: 20px;
+}
+nav li {
+  display:inline-block;
+  font-size: 22px;
+  padding-left: 18px;
+}
+
+.navbar-brand {
+	margin-right: 40px;
+}
+
+
+a:hover {
+	color: white;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.gotopbtn{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background: #49B742;
+	opacity: 0.7;
+	bottom: 40px;
+	right: 50px;
+	border-radius: 12px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 18px;
+	
+}
+
+.gotopbtn:hover {
+	background: #55C74D;
+	opacity: 0.9;
+	text-decoration: none;
+}
+
+/* Nav Ends */
+/* Main page Begins */
+
+#Events {
+	text-align: center;
+	padding-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 40px;
+}
+
+#Events h2 {
+    color: #CD70FF;
+	font-size: 50px;
+}
+
+#Events p {
+	font-size: 20px;
+	margin: 30px;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+#Yellow {
+	color: #FDFF6B;
+	font-size: 32px;
+}
+
+#Red {
+	color: #FF6666;
+	font-size: 32px;
+}
+
+#Pink{
+	color: #FF4DC6;
+	font-size: 32px;
+}
+
+#Blue {
+	color: #7A95FF;
+	font-size: 32px;
+}
+
+.right-facts img {
+	float: left;
+}
+
+.left-facts img {
+	float: right;
+}
+.right-facts img,.left-facts img {
+	clip-path: circle(38% at 50% 50%);
+}
+
+.right-facts, .left-facts {
+    display: inline-block;
+	padding-bottom: 80px;
+	
+}
+
+.left-facts {
+	margin: 30px;
+}
+
+.right-facts {
+	margin: 30px;
+}
+
+.subtext {
+	margin-top: 80px;
+}
+.subtext p {
+	margin-top: 20px;
+	display: flex;	
+}
+
+.subtext h3{
+    margin-top: -63px;
+    font-size: 25px;
+    width: 300px;
+	display: flex;
+}
+
+#Events p {
+	font-size: 18px;
+	margin: 30px;
+}
+
+/* Main page ends */
+/* Footer begins */
+#Soical {
+    background-color: #49B742;
+    text-align: center;	
+}
+#Soical h3 {
+	color: black;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+#Soical div li a {
+    font-size: 18px;
+    color: black;
+    font-weight: lighter;
+}
+
+#Soical div li a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#Soical div li  {
+    display: inline-table;
+	padding: 10px;
+	text-align: center;
+}
+/* Footer ends */
+/* Screen size starts */
+@media only screen and (max-width: 1120px) {
+	.navbar-toggler{
+		background-color: #49B742;
+		width: 900px;
+	}
+	.navbar-brand {
+		width: 2000px;
+		margin-right: 0px;
+	}
+	nav {
+		text-align: center;
+	}
+	nav form {
+		visibility: hidden;
+	}
+	
+	nav li {
+		padding-left: 0px;
+	}
+
+	.subtext h3 {
+		width: 300px;
+		display: inline-block;
+	}
+	
+	.right-facts img, .left-facts img {
+		float: none;
+	}
+	
+	.right-facts, .left-facts {
+		text-align: center;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	.navbar-brand {
+			width: 600px;
+	}	
+	nav img {
+			width: 320px
+		}
+	}
+
+@media only screen and (max-width: 370px) {
+		#Events {
+			color: white;
+		}
+		
+		.left-facts, .right-facts {
+			margin: 20px;
+		}
+	
+		button img {
+			width: 30px;
+		}
+}
+/* Screen size ends */
